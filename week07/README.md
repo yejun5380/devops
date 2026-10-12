@@ -32,6 +32,14 @@ Nginx를 통해 8080 포트로 들어온 요청을 Flask Web 서비스의 5000 �
 
 Nginx를 통해 `http://localhost:8080`으로 접속했을 때 방명록 화면이 정상적으로 표시되었으며, Redis에 저장된 기존 글도 유지되었다.
 
+### Scale 실습 캡처
+
+![방명록 실행 화면](images/devops1.png)
+
+![Web 컨테이너 3개 호스트명 확인](images/devops2.png)
+
+![Docker Compose 컨테이너 실행 상태 및 Healthy 확인](images/devops3.png)
+
 ## 5. Docker 볼륨 데이터 유지 비교
 
 Docker Compose의 `down`과 `down -v` 명령어가 Redis 데이터에 미치는 차이를 비교하였다.
