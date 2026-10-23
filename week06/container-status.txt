@@ -1,0 +1,2 @@
+CONTAINER ID   IMAGE            COMMAND           CREATED              STATUS              PORTS                                         NAMES
+9bf03ea6d0bb   guestbook:slim   "python app.py"   About a minute ago   Up About a minute   0.0.0.0:8081->5000/tcp, [::]:8081->5000/tcp   week06-gb
