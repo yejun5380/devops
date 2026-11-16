@@ -1,0 +1,3 @@
+IMAGE            ID             DISK USAGE   CONTENT SIZE   EXTRA
+guestbook:fat    04fc71e82468        201MB           49MB        
+guestbook:slim   ac754f462087        199MB         47.9MB   U    
